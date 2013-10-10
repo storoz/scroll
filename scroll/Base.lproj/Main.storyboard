@@ -20,23 +20,28 @@
                                 <rect key="frame" x="0.0" y="0.0" width="500" height="1000"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xdz-Va-gCb" userLabel="detailview">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xdz-Va-gCb" userLabel="detailview">
                                         <rect key="frame" x="0.0" y="0.0" width="500" height="1000"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="1000" id="qOI-cz-FRj"/>
-                                        </constraints>
                                     </view>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="Xdz-Va-gCb" firstAttribute="leading" secondItem="tfb-24-bkp" secondAttribute="leading" id="21y-Y8-whp"/>
+                                    <constraint firstItem="Xdz-Va-gCb" firstAttribute="top" secondItem="tfb-24-bkp" secondAttribute="top" id="LlZ-c8-Lsk"/>
+                                    <constraint firstAttribute="bottom" secondItem="Xdz-Va-gCb" secondAttribute="bottom" id="MXI-1f-eRd"/>
+                                    <constraint firstItem="Xdz-Va-gCb" firstAttribute="centerY" secondItem="tfb-24-bkp" secondAttribute="centerY" id="Vhd-Sf-1nv"/>
+                                    <constraint firstAttribute="trailing" secondItem="Xdz-Va-gCb" secondAttribute="trailing" id="ca1-yd-uLd"/>
+                                    <constraint firstItem="Xdz-Va-gCb" firstAttribute="centerX" secondItem="tfb-24-bkp" secondAttribute="centerX" id="uOI-iH-PUr"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="tfb-24-bkp" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="BSJ-Hj-9wG"/>
-                            <constraint firstAttribute="trailing" secondItem="tfb-24-bkp" secondAttribute="trailing" id="C6g-Dd-rpa"/>
-                            <constraint firstItem="tfb-24-bkp" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="FLT-5E-mPz"/>
-                            <constraint firstAttribute="bottom" secondItem="tfb-24-bkp" secondAttribute="bottom" id="yqZ-Ep-1Pr"/>
+                            <constraint firstAttribute="bottom" secondItem="tfb-24-bkp" secondAttribute="bottom" id="F2F-0m-Xmj"/>
+                            <constraint firstItem="tfb-24-bkp" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="FUN-nJ-8i0"/>
+                            <constraint firstAttribute="trailing" secondItem="tfb-24-bkp" secondAttribute="trailing" id="gfw-Rr-elM"/>
+                            <constraint firstItem="tfb-24-bkp" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="stf-gj-pd8"/>
                         </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
