@@ -460,6 +460,7 @@
 				C582982317FE867A00C9458E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C582982417FE867A00C9458E /* Build configuration list for PBXNativeTarget "scrollTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +469,7 @@
 				C582982617FE867A00C9458E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

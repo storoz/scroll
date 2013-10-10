@@ -16,8 +16,19 @@
 
 - (void)viewDidLoad
 {
+    UIView *detailview;
+    UIScrollView *scrollview;
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    scrollview = [[UIScrollView alloc] init];
+    detailview = [[UIView alloc] init];
+    
+    [self.view addSubview:scrollview];
+    [scrollview addSubview:detailview];
+    
+    scrollview.translatesAutoresizingMaskIntoConstraints = NO;
+    detailview.translatesAutoresizingMaskIntoConstraints = NO;
 }
 
 - (void)didReceiveMemoryWarning
